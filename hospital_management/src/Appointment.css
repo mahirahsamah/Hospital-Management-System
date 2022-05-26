@@ -1,0 +1,122 @@
+table {
+  width: 100%;
+  border: 1px solid #000;
+	border-collapse: collapse;
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+th, td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+thead, tbody {
+  width: 100%;
+}
+html, body {
+  min-height: 100vh;
+  margin: 0px;
+}
+.crud-table {
+  background-color: white;
+  border-color: white;
+}
+.crud-table th {
+  background-color: #9a9da6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.crud-table th, .crud-table td {
+  border: 2px solid #b4b6bf;
+}
+.crud-table tbody tr:hover {
+  background: #b4b6bf;
+}
+.crud-table .crud-show {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+.crud-table .crud-show:hover {
+  text-decoration: underline;
+}
+.profile-body {
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	height: 100%;
+	background-color: #f4f4f4;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	padding-bottom: 50px;
+}
+.profile-header {
+	margin-bottom: 30px;
+}
+
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 800px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
